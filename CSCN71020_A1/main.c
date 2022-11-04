@@ -21,8 +21,10 @@ void main() {
 	{
 	case 1:
 		add();
+		break;                //to terminate the case after the first execution
 	case 2:
 		subtract();           //a new case was introduced 
+		break;                //to terminate the case after the second execution
 	}
 
 }
